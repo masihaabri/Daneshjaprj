@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">دانشکالا</string>
+    <string name="daneshja">موسسه علمی پژوهشی دانشجا</string>
+    <string name="error">خطا در ارتباط با سرور!</string>
+    <string name="name">نام محصول : </string>
+    <string name="price">قیمت : </string>
+    <string name="percent">درصد تخفیف : </string>
+    <string name="likes">تعداد لایک ها : </string>
+    <string name="desc">درباره ی محصول : </string>
+    <string name="comments">نظرات : </string>
+    <string name="available">موجود است.</string>
+    <string name="notavailable">موجود نیست.</string>
+    <string name="notc">کامنتی وارد نشده!</string>
+</resources>

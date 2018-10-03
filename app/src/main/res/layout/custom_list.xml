@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <View
+        android:id="@+id/line1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000000"/>
+
+    <ImageView
+        android:id="@+id/list_img"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="41dp"
+        android:scaleType="fitXY" />
+
+    <TextView
+        android:id="@+id/list_name"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:layout_width="120dp"
+        android:layout_below="@id/list_img"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:singleLine="true"
+        android:textStyle="bold"
+        android:layout_alignParentRight="true"
+        android:maxLines="5" />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="6dp"
+        android:id="@+id/list_price"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/list_img"
+        android:textColor="@color/red"
+        android:textStyle="bold"
+        android:maxLines="5"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="6dp"
+        android:id="@+id/list_discount_percent"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/list_img"
+        android:textColor="#0ad814"
+        android:layout_below="@id/list_price"
+        android:textStyle="bold"
+        android:maxLines="5"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="6dp"
+        android:id="@+id/list_available"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/list_img"
+        android:textColor="#0ad814"
+        android:layout_below="@id/list_discount_percent"
+        android:textStyle="bold"
+        android:maxLines="5"/>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="6dp"
+        android:id="@+id/description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/list_img"
+        android:layout_below="@id/list_available"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:maxLines="5"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dot"
+        android:layout_below="@id/description"
+        android:text="..."
+        android:layout_toLeftOf="@id/list_img"
+        android:textColor="#000000"
+        android:textStyle="bold"/>
+
+</RelativeLayout>
